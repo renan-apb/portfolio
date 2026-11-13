@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Renan Andrade is a Flutter engineer specializing in accessible mobile experiences, Firebase, APIs, and cross-platform product delivery.">
+  <meta name="theme-color" content="#08111f">
+  <title>Renan Andrade — Flutter & Mobile Accessibility</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Renan Andrade, home">
+      <span aria-hidden="true">RA</span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="#work">Work</a>
+      <a href="#practice">Practice</a>
+      <a href="#about">About</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="eyebrow"><span class="status-dot" aria-hidden="true"></span> Flutter · Mobile accessibility · Remote</div>
+      <h1 id="hero-title">I build mobile experiences that work for <em>more people.</em></h1>
+      <p class="hero-copy">I’m Renan Andrade, a Flutter engineer focused on accessible, maintainable products for iOS, Android, and the web. I turn complex flows into clear experiences—with accessibility built into the engineering process, not added at the end.</p>
+      <div class="hero-actions">
+        <a class="button primary" href="#work">Explore selected work</a>
+        <a class="button secondary" href="https://github.com/renan-apb" target="_blank" rel="noreferrer">GitHub</a>
+      </div>
+      <ul class="proof-list" aria-label="Areas of expertise">
+        <li><strong>Flutter & Dart</strong><span>Production mobile apps</span></li>
+        <li><strong>Accessibility</strong><span>VoiceOver, TalkBack, WCAG</span></li>
+        <li><strong>Spec-driven delivery</strong><span>From requirements to release</span></li>
+        <li><strong>Client-facing</strong><span>English collaboration</span></li>
+      </ul>
+    </section>
+
+    <section class="section" id="work" aria-labelledby="work-title">
+      <div class="section-heading">
+        <p class="kicker">Selected work</p>
+        <h2 id="work-title">Accessible products across mobile, learning, fitness, and IoT.</h2>
+        <p>Public project names are included where appropriate. Client-sensitive details remain intentionally omitted.</p>
+      </div>
+
+      <article class="case-study case-yellow" aria-labelledby="theodoor-title">
+        <div class="case-index" aria-hidden="true">01</div>
+        <div class="case-content">
+          <p class="case-type">Accessible IoT · Current work</p>
+          <h3 id="theodoor-title">Theodoor by Doorbotics</h3>
+          <p class="case-summary">A Flutter mobile controller for an accessible automatic door opener, connecting people with limited mobility to greater independence at home.</p>
+          <div class="case-grid">
+            <div>
+              <h4>What I’m contributing</h4>
+              <ul>
+                <li>Flutter application flows for discovering, pairing, and controlling the device</li>
+                <li>BLE communication and Wi-Fi-enabled IoT experiences</li>
+                <li>Accessible controls designed for assistive-technology users</li>
+                <li>Engineering decisions across device state, feedback, errors, and recovery</li>
+              </ul>
+            </div>
+            <div>
+              <h4>Recognition</h4>
+              <p>Theodoor was named a winner of the CTA Foundation’s CES 2027 Eureka Park Accessibility Contest and will exhibit in the Accessibility Hub in Las Vegas. It also earned Gold in Mobility Management’s 2026 Product of the Year Awards.</p>
+              <p class="case-link"><a href="https://doorbotics.com/press" target="_blank" rel="noreferrer">View public recognition</a></p>
+              <ul class="tags" aria-label="Theodoor technologies">
+                <li>Flutter</li><li>Dart</li><li>BLE</li><li>IoT</li><li>Wi-Fi</li><li>Accessibility</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="case-study case-green" aria-labelledby="adaptx-title">
+        <div class="case-index" aria-hidden="true">02</div>
+        <div class="case-content">
+          <p class="case-type">Accessible fitness discovery</p>
+          <h3 id="adaptx-title">aXis for AdaptX</h3>
+          <p class="case-summary">A cross-platform experience that helps athletes discover adaptive fitness professionals and accessible events.</p>
+          <div class="case-grid">
+            <div>
+              <h4>What I owned</h4>
+              <ul>
+                <li>An eight-step onboarding flow with clear validation and accessible feedback</li>
+                <li>Search, filters, geolocation, pagination, favorites, and provider details</li>
+                <li>Screen-reader semantics, focus management, announcements, and scalable interfaces</li>
+                <li>Firebase data modeling and production-ready iOS and Android builds</li>
+              </ul>
+            </div>
+            <div>
+              <h4>Engineering focus</h4>
+              <p>Complex discovery and filtering had to remain understandable for assistive-technology users. I worked across UI, state, Firebase, and accessibility behavior to make the full journey coherent.</p>
+              <p class="case-link"><a href="https://www.smarttech.pitt.edu/news/appxcelerate-2025-teams" target="_blank" rel="noreferrer">View the public project announcement</a></p>
+              <ul class="tags" aria-label="aXis technologies">
+                <li>Flutter</li><li>Dart</li><li>Firebase</li><li>WCAG 2.2 AA</li><li>Geolocation</li><li>REST</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <div class="project-grid" aria-label="Additional selected work">
+        <article class="project-card" aria-labelledby="ada-title">
+          <p class="case-type">Accessible learning platform</p>
+          <h3 id="ada-title">Rocky Mountain ADA Center</h3>
+          <p>A Flutter learning experience that turns ADA education into structured, engaging, and accessible course journeys.</p>
+          <ul>
+            <li>Reusable player for video, text, quiz, flip-card, carousel, and story content</li>
+            <li>Predictable focus, labeled controls, adjustable progress, and full-screen focus recovery</li>
+            <li>Strapi-driven content with BLoC, Dio, Firebase, authentication, and mobile releases</li>
+          </ul>
+          <ul class="tags" aria-label="Rocky Mountain ADA Center app technologies">
+            <li>Flutter</li><li>BLoC</li><li>Strapi</li><li>Firebase</li><li>VoiceOver</li>
+          </ul>
+          <p class="case-link"><a href="https://www.smarttech.pitt.edu/news/appxcelerate-2025-teams" target="_blank" rel="noreferrer">View the public project announcement</a></p>
+        </article>
+
+        <article class="project-card" aria-labelledby="navigate-title">
+          <p class="case-type">Accessible advocacy learning · Current</p>
+          <h3 id="navigate-title">Navigate &amp; Advocate</h3>
+          <p>An accessibility-first learning product currently in development, building on proven course architecture while preserving a distinct product experience.</p>
+          <ul>
+            <li>Product discovery translated into technical scope and implementation-ready specifications</li>
+            <li>Reusable Flutter foundations adapted to new content, identity, and user journeys</li>
+            <li>Accessibility acceptance criteria carried through design, development, and QA</li>
+          </ul>
+          <ul class="tags" aria-label="Navigate and Advocate technologies and practices">
+            <li>Flutter</li><li>Spec-driven</li><li>Accessibility</li><li>Strapi</li><li>Firebase</li>
+          </ul>
+          <p class="project-note">Current work · Client-sensitive details omitted</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section accessibility" id="practice" aria-labelledby="practice-title">
+      <div class="section-heading">
+        <p class="kicker">Engineering practice</p>
+        <h2 id="practice-title">Specifications make quality repeatable.</h2>
+        <p>I turn product requirements and accessibility needs into explicit behaviors, edge cases, and acceptance criteria—then carry them through implementation and validation.</p>
+      </div>
+      <div class="practice-grid">
+        <article>
+          <span class="practice-number" aria-hidden="true">01</span>
+          <h3>Specify</h3>
+          <p>Implementation-ready flows, states, edge cases, accessibility behaviors, and testable acceptance criteria.</p>
+        </article>
+        <article>
+          <span class="practice-number" aria-hidden="true">02</span>
+          <h3>Build</h3>
+          <p>Maintainable Flutter architecture, semantic structure, state management, APIs, services, and resilient layouts.</p>
+        </article>
+        <article>
+          <span class="practice-number" aria-hidden="true">03</span>
+          <h3>Validate</h3>
+          <p>VoiceOver and TalkBack testing, focus behavior, dynamic announcements, keyboard navigation, and platform inspection tools.</p>
+        </article>
+        <article>
+          <span class="practice-number" aria-hidden="true">04</span>
+          <h3>Enable teams</h3>
+          <p>Actionable findings, engineering checklists, test scenarios, and collaboration across Design, QA, Product, and Development.</p>
+        </article>
+      </div>
+      <blockquote>
+        <p>“The best accessible experience is the one the whole team knows how to maintain.”</p>
+      </blockquote>
+    </section>
+
+    <section class="section about" id="about" aria-labelledby="about-title">
+      <div class="about-copy">
+        <p class="kicker">About me</p>
+        <h2 id="about-title">Healthcare shaped how I engineer.</h2>
+        <p>Before software, I worked as a physiotherapist and completed a master’s degree in Rehabilitation Sciences. That background taught me to observe barriers closely, listen before proposing solutions, and understand that “works” is not the same as “works for everyone.”</p>
+        <p>Today I develop Flutter products with distributed teams and collaborate directly with U.S.-based clients in English—from requirements and technical decisions through builds and releases.</p>
+      </div>
+      <div class="stack-panel" aria-labelledby="stack-title">
+        <h3 id="stack-title">Current toolkit</h3>
+        <dl>
+          <div><dt>Mobile</dt><dd>Flutter, Dart, iOS, Android</dd></div>
+          <div><dt>Architecture</dt><dd>BLoC, Riverpod, Clean Architecture, DI</dd></div>
+          <div><dt>Services</dt><dd>Firebase, REST APIs, Strapi, analytics</dd></div>
+          <div><dt>Delivery</dt><dd>Spec-driven development, GitHub, CI/CD, Azure pipelines</dd></div>
+          <div><dt>Accessibility</dt><dd>WCAG, Semantics, VoiceOver, TalkBack</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="contact" aria-labelledby="contact-title">
+      <p class="kicker">Open to the right conversation</p>
+      <h2 id="contact-title">Flutter engineering. Mobile accessibility. International teams.</h2>
+      <p>I’m interested in remote Flutter roles and accessibility-focused product work where engineering quality and inclusive experiences are treated as the same goal.</p>
+      <a class="button primary" href="https://github.com/renan-apb" target="_blank" rel="noreferrer">View my GitHub</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Renan Andrade</p>
+    <p>Built with semantic HTML, visible focus, reduced-motion support, and no tracking.</p>
+  </footer>
+</body>
+</html>
